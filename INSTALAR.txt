@@ -1,0 +1,57 @@
+==================================================
+  FriendFinder — Instalação
+==================================================
+
+PRÉ-REQUISITO: UE4SS instalado no Palworld
+  Baixe em: https://github.com/UE4SS-RE/RE-UE4SS/releases
+  Versão testada: 3.0.1+
+
+--------------------------------------------------
+INSTALAÇÃO
+--------------------------------------------------
+
+1. Abra a pasta de instalação do Palworld (Steam):
+   Palworld > Propriedades > Arquivos locais > Procurar...
+
+2. Navegue até:
+   Palworld\Binaries\Win64\ue4ss\Mods\
+
+3. Copie a pasta  FriendFinder\  inteira para dentro de  Mods\
+   Resultado:  Mods\FriendFinder\Scripts\main.lua
+
+4. Abra o arquivo:
+   Mods\mods.txt
+
+   E adicione ao final:
+   FriendFinder : 1
+
+5. Inicie o Palworld. O mod carrega automaticamente.
+   No console do UE4SS você verá:
+   [FriendFinder] Mod carregado — marcadores de guilda ativos.
+
+--------------------------------------------------
+TANTO O HOST QUANTO A NAMORADA PRECISAM INSTALAR
+--------------------------------------------------
+
+O mod roda no cliente de cada jogador. Instale nos dois PCs.
+
+--------------------------------------------------
+AJUSTES OPCIONAIS  (editar Scripts/main.lua)
+--------------------------------------------------
+
+CONFIG.bussolaY      -- altura em pixels; aumente se o marcador
+                        aparecer em cima do texto da bússola
+
+CONFIG.meioFOV       -- graus exibidos de cada lado (padrão 90)
+
+CONFIG.corMarcador   -- cor da setinha (R/G/B/A  entre 0.0 e 1.0)
+
+CONFIG.mostrarNome       -- true/false
+CONFIG.mostrarDistancia  -- true/false
+
+--------------------------------------------------
+DESINSTALAR
+--------------------------------------------------
+Delete a pasta  Mods\FriendFinder\  ou mude para
+FriendFinder : 0  no mods.txt
+==================================================
