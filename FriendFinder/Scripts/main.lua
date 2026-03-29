@@ -33,13 +33,10 @@ LoopInGameThreadWithDelay(3000, function()
                 local name = tostring(p:GetFullName())
 
                 if not markers[name] then
-                    -- Pega apenas o ultimo marker da lista (menos provavel de ser usado)
                     local m = existingMarkers[#existingMarkers - (markerIndex - 1)]
                     if m and m:IsValid() then
                         markers[name] = m
-                        -- Remove limite de distancia
                         markers[name].HiddenDistance = 999999999.0
-                        markers[name].CurrentDistance = 999999999.0
                         markerIndex = markerIndex + 1
                         print("[FF] Marker associado para: " .. name)
                     end
