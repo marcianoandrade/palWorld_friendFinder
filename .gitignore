@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docview
+
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.aps
+
+# Compiled
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
