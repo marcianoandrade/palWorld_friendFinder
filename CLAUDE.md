@@ -24,6 +24,7 @@ query:
 
 ## Sobre o projeto
 
-Repositório irmão/variante do mod **FriendFinder** para Palworld (Lua/UE4SS):
-instalador, README e versão atualizada do mod de marcadores de aliados na bússola.
-Mesma finalidade do repo `friendFinder`.
+Mod **FriendFinder** para Palworld (Lua/UE4SS): exibe marcadores na bússola
+apontando para aliados no mesmo servidor multiplayer, com distância em metros,
+atualizando a cada 3s. Código principal em `FriendFinder/Scripts/main.lua`;
+instalador em `install.bat`. Repo canônico (antes chamado `friendFinder` no GitHub).
